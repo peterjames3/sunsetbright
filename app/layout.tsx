@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 import Navbar from "@/app/ui/Navbar";
+import ScrollToTopBtn from '@/app/ui/ScrollToTopBtn';
 import Footer from  '@/app/ui/Footer';
 export const metadata: Metadata = {
   title: "SunsetBright Energy Limited | Leading Solar & Electrical Solutions Provider in Kenya",
@@ -73,6 +74,7 @@ export default function RootLayout({
       <body>
         <Navbar />
         <main>{children}</main>
+        <ScrollToTopBtn />
         <Footer />
       </body>
     </html>

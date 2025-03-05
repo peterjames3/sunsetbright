@@ -63,7 +63,7 @@ export default function Journey() {
           </motion.p>
         </div>
 
-        <div className="grid lg:grid-cols-2 gap-12" ref={ref}>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-12" ref={ref}>
           {/* Timeline */}
           <motion.div
             initial="hidden"
