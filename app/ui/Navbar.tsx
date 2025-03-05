@@ -26,14 +26,14 @@ export default function Navbar() {
     <header className="w-full shadow-sm py-6 flex flex-col gap-2 fixed top-0 z-50 bg-background ">
        {/* Contact information section */}
        <section className=" w-full mx-auto max-w-full md:max-w-[840px] xl:max-w-[1040px] px-4 md:px-0 sm:flex items-center justify-between ">
-        <address className=" flex items-center gap-6 text-p-sm sm:text-p-md md:text-p-lg">
+        <address className=" sm:flex items-center gap-6 text-p-sm sm:text-p-md md:text-p-lg">
           <div className="flex gap-2  hover:text-secondary transition-colors delay-100 items-center text-foreground">
           <MailCheck />
             <a href="mailto:sunsetbrightenergylimited@gmail.com">sunsetbrightenergylimited@gmail.com</a>
           </div>
           <div className="flex gap-2 hover:text-secondary transition-colors delay-100 items-center text-foreground">
           <PhoneCall />
-            <a href="tel:+254768283966">+254  716 783432</a>
+            <a href="tel:+254716783432">+254  716 783432</a>
           </div>
         </address>
         {/* Social media links */}

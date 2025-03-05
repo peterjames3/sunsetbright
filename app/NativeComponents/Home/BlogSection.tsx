@@ -14,7 +14,7 @@ const blogPosts = [
     author: "Sarah Njeri",
   },
   {
-    image: "/placeholder.svg?height=400&width=600",
+    image: "/Surreal infrared.jpg",
     category: "Industry Insights",
     readTime: "5 min read",
     title: "The Future of Solar Energy in Kenya: 2025 Outlook",
@@ -24,7 +24,7 @@ const blogPosts = [
     author: "James Mwangi",
   },
   {
-    image: "/placeholder.svg?height=400&width=600",
+    image: "/Warm golden.jpg",
     category: "Finance",
     readTime: "10 min read",
     title: "Solar Financing Options for Kenyan Homeowners",

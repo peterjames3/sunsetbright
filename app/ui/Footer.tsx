@@ -10,7 +10,7 @@ import FooterCopyright from '@/app/ui/FooterCopyright';
 
 
   return (
-    <footer className="bg-[#0a0e0a] text-white mt-16">
+    <footer className="bg-[#0a0e0a] text-white ">
       <div className="max-w-7xl mx-auto px-4 pt-16 pb-8">
         {/* Main Footer Content */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-16">

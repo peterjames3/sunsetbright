@@ -3,7 +3,7 @@ export default function FooterCopyright(){
     return(
         <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="flex items-center mb-4 md:mb-0">
-              <p className="text-gray-400"> © {new Date().getFullYear()} MyCompany. All Rights Reserved.</p>
+              <p className="text-gray-400"> © {new Date().getFullYear()} SunsetBright Energy Limited. All Rights Reserved.</p>
             </div>
             
             <div className="flex gap-6 mb-4 md:mb-0">
