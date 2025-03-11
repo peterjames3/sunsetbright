@@ -9,6 +9,8 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@sanity/image-url": "^1.1.0",
+    "@sanity/vision": "^3.78.0",
     "@tabler/icons-react": "^3.30.0",
     "@tailwindcss/postcss": "^4.0.9",
     "class-variance-authority": "^0.7.1",
@@ -17,9 +19,13 @@
     "lucide-react": "^0.476.0",
     "motion": "^12.4.7",
     "next": "15.1.7",
+    "next-sanity": "^9.9.0",
     "postcss": "^8.5.3",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
+    "react-share": "^5.2.2",
+    "sanity": "^3.78.0",
+    "styled-components": "^6.1.15",
     "tailwind-merge": "^3.0.2",
     "tailwindcss": "^4.0.9",
     "tailwindcss-animate": "^1.0.7"

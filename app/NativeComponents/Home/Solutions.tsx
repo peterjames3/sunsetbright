@@ -12,7 +12,7 @@ import {
 
 export default function Solutions() {
   return (
-    <section className='w-full bg-foreground py-8'>
+    <section id='solutions' className='w-full bg-foreground py-8'>
          <header className='wrapper flex flex-col gap-3'>
                 <div className='flex items-center gap-4  '>
                  <div className='h-6 w-[2px] bg-primary'></div>
@@ -46,9 +46,9 @@ const Skeleton = () => (
 );
 const items = [
   {
-    title: "Residential Solar Solutions",
+    title: "Solar Installation",
     description: "Efficient and cost-saving solar systems tailored for homes.",
-    src: image1,
+    src: '/A solar panel installation.jpg',
     alt: "Technician installing solar panels",
     header: <Skeleton />,
     icon: <IconHome className="size-4 text-primary" />,
@@ -58,44 +58,44 @@ const items = [
   {
     title: "Solar Water Heating",
     description: "Sustainable and energy-efficient hot water solutions using solar technology.",
-    src: "/Solar panels on rooftops of small homes and businesses. A technician works on a panel.jpg",
-    alt: "Technician installing solar panels",
+    src: "/A modern solar water heater.jpg",
+    alt: "A modern solar water heater",
     //header: <Skeleton />,
     icon: <IconSun className="size-4 text-primary" />,
     href: "/services/solar-water-heating",
   },
   {
-    title: "Custom Energy Solutions",
+    title: "Electrical Design",
     description: "Tailored solar energy systems for residential, commercial, and industrial needs.",
-    src: "/Silhouetted backlighting, extreme macro close-up. Solar-powered water pump system in rural Kenya.jpg",
-    alt: "Solar farm installation",
+    src: "/A professional electrical wiring diagram for a residential building, showing lighting circuits, power outl.jpg",
+    alt: "A professional electrical wiring diagram for a residential building, showing lighting circuits",
     //header: <Skeleton />,
     icon: <IconSettings className="size-4 text-primary" />,
     href: "/services/custom-energy",
   },
   {
-    title: "Electrical Design, Electrical Installation and Power Metering",
+    title: "Electrical Installation",
     description: "Expert design, installation, and maintenance of electrical systems.",
-    src: "/High-angle view of a home with solar panels at sunset.jpg",
-    alt: "Solar panels on residential home",
+    src: "/an electrical inspector in safety gear conducting an electrical audit in a large meter box.jpg",
+    alt: "electrical inspector in safety gear conducting an electrical audit. ",
     //header: <Skeleton />,
     icon: <IconPlugConnected className="size-4 text-primary" />,
     href: "/services/electrical-infrastructure",
   },
   {
-    title: "Solar Energy Consultation",
+    title: "Solar Water Pump",
     description: "Reliable solar power solutions for remote locations and independent energy needs.",
-    src: "/A solar panel installation.jpg",
+    src: "/A modern solar water heater.jpg",
     alt: "Solar panel installation with technician on rooftop overlooking rural landscape",
     //header: <Skeleton />,
     icon: <IconBolt className="size-4 text-primary" />,
     href: "/services/off-grid-solar",
   },
   {
-    title: "Solar Installation",
+    title: " Power Metering",
     description: "Advanced battery storage for uninterrupted solar power supply.",
-    src: "/A solar panel installation.jpg",
-    alt: "Solar panel installation with technician on rooftop overlooking rural landscape",
+    src: "/power meter.jpg",
+    alt: "Image of a power meter",
    // header: <Skeleton />,
     icon: <IconBattery className="size-4 text-primary" />,
     href: "/services/energy-storage",
@@ -103,8 +103,8 @@ const items = [
   {
     title: "CCTV, Electric Fence and  Alarms Installation",
     description: "Fast and efficient solar-powered charging for electric vehicles.",
-    src: "/A solar panel installation.jpg",
-    alt: "Solar panel installation with technician on rooftop overlooking rural landscape",
+    src: "/motion 1.jpg",
+    alt: "image of a Burglar alarm",
     //header: <Skeleton />,
     icon: <IconRecharging className="size-4 text-primary" />,
     href: "/services/energy-storage",

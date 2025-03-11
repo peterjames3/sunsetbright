@@ -13,8 +13,8 @@ export default function ChooseUs(){
                  </div>
                     
                 </div>
-              <h3 className='title font-semibold bg-gradient-to-r from-foreground to-primary bg-clip-text text-transparent'>      Power your home or business with expert solar, electrical, and security solutions trusted by thousands
-              </h3>
+              <p className='title font-semibold bg-gradient-to-r from-foreground to-primary bg-clip-text text-transparent'>      Power your home or business with expert solar, electrical, and security solutions trusted by thousands
+              </p>
             </header>
       </div>
       <div>

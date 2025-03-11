@@ -22,7 +22,7 @@ export const BentoGridItem = ({
   return (
     <article
       className={cn(
-        "row-span-1 rounded-xl group/bento hover:shadow-xl transition duration-200 shadow-input dark:shadow-none p-4 bg-cardBg border-transparent justify-between flex flex-col space-y-4",
+        "row-span-1 rounded-xl group/bento hover:shadow-xl transition duration-200 shadow-input dark:shadow-none p-3 bg-cardBg border-transparent justify-between flex flex-col space-y-4",
         className
       )}
     ><figure>
@@ -30,9 +30,9 @@ export const BentoGridItem = ({
         <Image
           src={image}
           alt={alt || "Solar solution image"}
-          width={100} // Adjust width as needed
+          width={200} // Adjust width as needed
           height={10} // Adjust height as needed
-          className="rounded-lg object-fit w-full h-[13rem]"
+          className="rounded-lg object-fit w-full h-[16rem]"
         />
       )}
       </figure>

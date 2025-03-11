@@ -20,6 +20,19 @@ export default function About(){
           src: "/Solar panels on rooftops of small homes and businesses. A technician works on a panel.jpg",
           alt: "Technician installing solar panels",
         },
+        {
+          src: "/modern solar water heater on a contemporary house roof.jpg",
+          alt: "modern solar water heater on a contemporary house roof",
+        },
+        {
+          src: "/a professional electrical wiring diagram for residential buildings.jpg",
+          alt: "a professional electrical wiring diagram for residential buildings",
+        },
+        {
+          src: "/Alltech-Electric-Fence-Installation-Services-In-Kenya.webp",
+          alt: "Alltech-Electric-Fence-Installation-Services-In-Kenya",
+        },
+        
       ]
     return(
        <section className='w-full bg-foreground py-5 min-h-[18rem]'>
