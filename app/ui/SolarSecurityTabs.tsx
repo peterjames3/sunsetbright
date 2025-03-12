@@ -1,6 +1,6 @@
 "use client";
 import { useState } from "react";
-import { motion } from "framer-motion";
+import { motion } from "motion/react";
 
 const tabs = [
   { id: "solar-full", label: "Full Solar Installation" },
@@ -30,7 +30,7 @@ const contentData: ContentData = {
     components: ["Solar panels", "Batteries", "Inverter", "Control system"],
     benefits: ["100% energy independence", "Full power security", "Long-term savings"],
     idealFor: "Homes and businesses seeking total energy independence",
-    image: "/warm golden.jpg",
+    image: "/warm golden.webp",
   },
   "solar-hybrid": {
     title: "Hybrid Solar System",
@@ -48,7 +48,7 @@ const contentData: ContentData = {
     components: ["Solar panels", "Smart inverter", "Grid connection"],
     benefits: ["Lower cost (no batteries)", "Uses grid as backup", "Net metering revenue"],
     idealFor: "Properties with reliable grid access looking to reduce energy costs",
-    image: "/A solar panel installation.jpg",
+    image: "/A solar panel installation.webp",
   },
   "security-cctv": {
     title: "CCTV Surveillance Systems",
@@ -57,7 +57,7 @@ const contentData: ContentData = {
     components: ["HD cameras", "Night vision", "Remote access"],
     benefits: ["Real-time monitoring", "Motion detection", "Enhanced security"],
     idealFor: "Homes, businesses, and institutions requiring continuous surveillance",
-    image: "/High-angle view of a home with solar panels at sunset.jpg",
+    image: "/High-angle view of a home with solar panels at sunset.webp",
   },
   "security-fence": {
     title: "Electric Fence Installation",
@@ -66,7 +66,7 @@ const contentData: ContentData = {
     components: ["High-voltage wires", "Battery backup", "Alarm system"],
     benefits: ["Intruder deterrent", "Power backup", "Automated alerts"],
     idealFor: "Properties requiring high-security perimeter protection",
-    image: "/Solar panels on rooftops of small homes and businesses. A technician works on a panel.jpg",
+    image: "/Solar panels on rooftops of small homes and businesses. A technician works on a panel.webp",
   },
   "security-alarm": {
     title: "Advanced Alarm Systems",

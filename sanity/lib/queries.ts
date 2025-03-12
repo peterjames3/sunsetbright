@@ -2,19 +2,19 @@ import { groq } from "next-sanity";
 
 // Get all posts
 
-export const postsQuery = groq`
-*[_type == "post"]{
-  _id,
-  _createdAt,
-  description,
-  title,
-  slug,
-  mainImage,
-  "imageURL": mainImage.asset->url,
-  "authorName": author->name,
-  "categories": categories[]->title,
-}
-`;
+// export const postsQuery = groq`
+// *[_type == "post"]{
+//   _id,
+//   _createdAt,
+//   description,
+//    title,
+//   slug,
+//   mainImage,
+//   "imageURL": mainImage.asset->url,
+//   "authorName": author->name,
+//   "categories": categories[]->title,
+// }
+// `;
 
 
 // Get a single post by its slug

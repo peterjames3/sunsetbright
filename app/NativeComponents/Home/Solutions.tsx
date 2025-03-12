@@ -48,7 +48,7 @@ const items = [
   {
     title: "Solar Installation",
     description: "Efficient and cost-saving solar systems tailored for homes.",
-    src: '/A solar panel installation.jpg',
+    src: '/A solar panel installation.webp',
     alt: "Technician installing solar panels",
     header: <Skeleton />,
     icon: <IconHome className="size-4 text-primary" />,
@@ -58,7 +58,7 @@ const items = [
   {
     title: "Solar Water Heating",
     description: "Sustainable and energy-efficient hot water solutions using solar technology.",
-    src: "/A modern solar water heater.jpg",
+    src: "/A modern solar water heater.webp",
     alt: "A modern solar water heater",
     //header: <Skeleton />,
     icon: <IconSun className="size-4 text-primary" />,
@@ -67,7 +67,7 @@ const items = [
   {
     title: "Electrical Design",
     description: "Tailored solar energy systems for residential, commercial, and industrial needs.",
-    src: "/A professional electrical wiring diagram for a residential building, showing lighting circuits, power outl.jpg",
+    src: "/A professional electrical wiring diagram for a residential building, showing lighting circuits, power outl.webp",
     alt: "A professional electrical wiring diagram for a residential building, showing lighting circuits",
     //header: <Skeleton />,
     icon: <IconSettings className="size-4 text-primary" />,
@@ -76,7 +76,7 @@ const items = [
   {
     title: "Electrical Installation",
     description: "Expert design, installation, and maintenance of electrical systems.",
-    src: "/an electrical inspector in safety gear conducting an electrical audit in a large meter box.jpg",
+    src: "/an electrical inspector in safety gear conducting an electrical audit in a large meter box.webp",
     alt: "electrical inspector in safety gear conducting an electrical audit. ",
     //header: <Skeleton />,
     icon: <IconPlugConnected className="size-4 text-primary" />,
@@ -85,7 +85,7 @@ const items = [
   {
     title: "Solar Water Pump",
     description: "Reliable solar power solutions for remote locations and independent energy needs.",
-    src: "/A modern solar water heater.jpg",
+    src: "/A modern solar water heater.webp",
     alt: "Solar panel installation with technician on rooftop overlooking rural landscape",
     //header: <Skeleton />,
     icon: <IconBolt className="size-4 text-primary" />,
@@ -94,7 +94,7 @@ const items = [
   {
     title: " Power Metering",
     description: "Advanced battery storage for uninterrupted solar power supply.",
-    src: "/power meter.jpg",
+    src: "/power meter.webp",
     alt: "Image of a power meter",
    // header: <Skeleton />,
     icon: <IconBattery className="size-4 text-primary" />,
@@ -103,7 +103,7 @@ const items = [
   {
     title: "CCTV, Electric Fence and  Alarms Installation",
     description: "Fast and efficient solar-powered charging for electric vehicles.",
-    src: "/motion 1.jpg",
+    src: "/motion 1.webp",
     alt: "image of a Burglar alarm",
     //header: <Skeleton />,
     icon: <IconRecharging className="size-4 text-primary" />,

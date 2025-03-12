@@ -4,7 +4,7 @@ import { Book, ArrowRight } from "lucide-react";
 
 const blogPosts = [
   {
-    image: "/A solar panel installation.jpg",
+    image: "/A solar panel installation.webp",
     category: "Tips & Guides",
     readTime: "4 min read",
     title: "How to Maximize Your Solar Panel Efficiency",
@@ -24,7 +24,7 @@ const blogPosts = [
     author: "James Mwangi",
   },
   {
-    image: "/Warm golden.jpg",
+    image: "/Warm golden.webp",
     category: "Finance",
     readTime: "10 min read",
     title: "Solar Financing Options for Kenyan Homeowners",

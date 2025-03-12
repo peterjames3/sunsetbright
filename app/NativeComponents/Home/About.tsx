@@ -5,27 +5,27 @@ import SolarCarousel from "@/app/ui/SolarCarousel";
 export default function About(){
     const carouselImages = [
         {
-          src: "/A solar panel installation.jpg",
+          src: "/A solar panel installation.webp",
           alt: "Solar panel installation with technician on rooftop overlooking rural landscape",
         },
         {
-          src: "/High-angle view of a home with solar panels at sunset.jpg",
+          src: "/High-angle view of a home with solar panels at sunset.webp",
           alt: "Solar panels on residential home",
         },
         {
-          src: "/Silhouetted backlighting, extreme macro close-up. Solar-powered water pump system in rural Kenya.jpg",
+          src: "/Silhouetted backlighting, extreme macro close-up. Solar-powered water pump system in rural Kenya.webp",
           alt: "Solar farm installation",
         },
         {
-          src: "/Solar panels on rooftops of small homes and businesses. A technician works on a panel.jpg",
+          src: "/Solar panels on rooftops of small homes and businesses. A technician works on a panel.webp",
           alt: "Technician installing solar panels",
         },
         {
-          src: "/modern solar water heater on a contemporary house roof.jpg",
+          src: "/modern solar water heater on a contemporary house roof.webp",
           alt: "modern solar water heater on a contemporary house roof",
         },
         {
-          src: "/a professional electrical wiring diagram for residential buildings.jpg",
+          src: "/a professional electrical wiring diagram for residential buildings.webp",
           alt: "a professional electrical wiring diagram for residential buildings",
         },
         {

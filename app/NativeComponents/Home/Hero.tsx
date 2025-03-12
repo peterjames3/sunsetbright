@@ -9,35 +9,35 @@ const clientReviews = [
     id: 1,
     name: "Ann G",
     designation: "Homeowner",
-    image: "/clive-thibela-9kQBQqY_xrk-unsplash.jpg",
+    image: "/clive-thibela.webp",
     review: "The solar panel installation was seamless, and my electricity bill has dropped significantly. Highly recommend their service!"
   },
   {
     id: 2,
     name: "Tonny O",
     designation: "CEO, GreenTech Solutions",
-    image: "/elizeu-dias-2EGNqazbAMk-unsplash.jpg",
+    image: "/elizeu-dias.webp",
     review: "Exceptional service! The team was professional and completed the installation ahead of schedule. Our business is now powered by clean energy!"
   },
   {
     id: 3,
     name: "Lucy W",
     designation: "Business Owner",
-    image: "/etty-fidele-J1jYLLlRpA4-unsplash.jpg",
+    image: "/etty-fidele.webp",
     review: "A game-changer for my business. The solar system is efficient, and the savings on energy costs are remarkable!"
   },
   {
     id: 4,
     name: "Mark R",
     designation: "Property Developer",
-    image: "/fortune-vieyra-xdmtQVVKibU-unsplash.jpg",
+    image: "/fortune-vieyra.webp",
     review: "Reliable and efficient solar solutions. The team provided excellent support from consultation to installation!"
   },
   {
     id: 5,
     name: "Cathrina G",
     designation: "Homeowner",
-    image: "/client2.png",
+    image: "/client2.webp",
     review: "Reliable and efficient solar solutions. The team provided excellent support from consultation to installation!"
   } ,
  
@@ -52,12 +52,12 @@ export default function Hero() {
     <div className=" relative w-full h-screen md:h-[55rem] flex items-center gap-10 bg-gradient-to-r from-gray-600 to-gray-900">
       <div className="">
         <Image
-          src="/A solar panel installation.jpg" 
+          src="/A solar panel installation.webp" 
           fill={true}
           style={{ objectFit:'cover' }}
           priority={true}
           className="object-fill mix-blend-overlay"
-          alt="Photographer exploring an abandoned location"
+          alt="a man installing a solar panel on residential house"
         />
       </div>
 

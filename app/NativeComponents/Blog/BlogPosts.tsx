@@ -12,19 +12,19 @@ import { format } from 'date-fns';
 const builder = imageUrlBuilder(client);
 //import { format } from 'date-fns';
 export default async function BlogPosts(){
-    let posts : SanityDocument[] = [];
-    let postPath : SanityDocument[] =[]
-    try{
-        posts = await sanityFetch<SanityDocument[]>({
-            query: postsQuery,
-        });
-        postPath = await sanityFetch<SanityDocument[]>({
-            query: postPathsQuery,
-        });
-    } catch(error){
-        console.log(`Error Fetching Posts: ${error}`);
-    }
-    console.log(postPath);
+    // let posts : SanityDocument[] = [];
+    // let postPath : SanityDocument[] =[]
+    // try{
+    //     posts = await sanityFetch<SanityDocument[]>({
+    //         query: postsQuery,
+    //     });
+    //     postPath = await sanityFetch<SanityDocument[]>({
+    //         query: postPathsQuery,
+    //     });
+    // } catch(error){
+    //     console.log(`Error Fetching Posts: ${error}`);
+    // }
+    // console.log(postPath);
 
 
     return(

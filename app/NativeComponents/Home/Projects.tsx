@@ -16,7 +16,7 @@ const projects = [
   },
   {
     title: "Residential Community Solar",
-    image: "/Warm golden.jpg",
+    image: "/Warm golden.webp",
     location: "Othaya, Nyeri",
     power: "120kW",
     impact: "85t/year",
@@ -25,7 +25,7 @@ const projects = [
   },
   {
     title: "Solar Farm",
-    image: "/A solar panel installation.jpg",
+    image: "/A solar panel installation.webp",
     location: "Mutha Farm",
     power: "120kW",
     impact: "100t/year",
