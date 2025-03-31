@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import "../globals.css";
 
-//import Navbar from "@/app/ui/Navbar";
+import Navbar from "@/app/ui/Navbar";
 import ScrollToTopBtn from '@/app/ui/ScrollToTopBtn';
 import Footer from  '@/app/ui/Footer';
 export const metadata: Metadata = {
@@ -72,7 +72,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-           {/* <Navbar />   */}
+           <Navbar />   
         <main>{children}</main>
         <ScrollToTopBtn />
         <Footer />
