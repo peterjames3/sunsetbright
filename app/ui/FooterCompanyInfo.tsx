@@ -34,7 +34,7 @@ export default function FooterCompanyInfo() {
             className="flex items-center gap-2 text-background hover:text-background/70 transition-colors"
           >
             <Mail className="size-5 text-primary" />
-            <span>sunsetbrightenergylimited@gmail.com</span>
+            <span className='text-[0.75rem]' >sunsetbrightenergylimited@gmail.com</span>
           </a>
 
           <a

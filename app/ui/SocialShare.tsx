@@ -43,14 +43,14 @@ export default function SocialShare({ title }: { title: string }) {
   return (
     <div>
       <h3 className="text-2xl font-semibold mb-2">Share this post:</h3>
-      <div className="flex flex-col space-y-4">
+      <div className="flex flex-col space-y-5  ">
         {shareButtons.map(({ Component, Icon, name }) => (
           <Component key={name} url={postUrl} title={title}>
             <Icon size={32} round />
           </Component>
         ))}
         {/* Copy Link */}
-        <button type='button' aria-label='copy post link' onClick={copyToClipBoard}  className="text-sm font-medium">
+        <button className='cursor-pointer text-[0.98rem] font-semibold' type='button' aria-label='copy post link' onClick={copyToClipBoard}  >
           {isCopied ? "Copied!" : "Copy Link"}
         </button>
       </div>

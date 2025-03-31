@@ -15,7 +15,7 @@ export default function Home() {
    <div className="">
        <Hero /> 
        <About />
-       {/* <ChooseUs />
+        <ChooseUs />
        <Solutions />
        <OurImpact />
        <Products />
@@ -23,7 +23,7 @@ export default function Home() {
        <Projects />
        <SolarSystems />
        <Testimonial />
-       <BlogSection /> */}
+       <BlogSection /> 
     </div>
    
   );

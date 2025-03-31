@@ -1,5 +1,9 @@
 @import "tailwindcss";
 
+html{
+  scroll-behavior: smooth;
+}
+
 /* Define theme variables for colors */
 @theme inline {
     /* Font family */
